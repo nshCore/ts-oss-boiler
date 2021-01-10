@@ -9,17 +9,14 @@
       }
     ],
     [
-      "@semantic-release/npm",
-      {
-        "tarballDir": "pack"
-      }
-    ],
-    [
-      "@semantic-release/github",
-      {
-        "assets": "pack/*.tgz"
-      }
-    ],
+      "@semantic-release/npm", {
+      "pkgRoot": "dist"
+    }],
+    ["@semantic-release/github", {
+      "assets": [
+        {"path": "dist/index.esm.min.js", "label": "esm minified module distribution"}
+      ]
+    }],
     [
       "@semantic-release/git",
       {

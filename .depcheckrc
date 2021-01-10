@@ -22,5 +22,8 @@ ignores: [
   "@commitlint/prompt-cli",
   "@commitlint/prompt",
   "@commitlint/cli",
+  "@commitlint/config-angular",
+  "prettier",
+  "semantic-release-npm-github-publish"
 ]
 skip-missing: true

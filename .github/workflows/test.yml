@@ -1,4 +1,4 @@
-name: 'PR Microservice Unit Tester'
+name: Unit Test
 
 on:
   pull_request:

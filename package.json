@@ -14,7 +14,9 @@
     "url": "https://github.com/nshcore/ts-oss-boiler/issues"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org/",
+    "tag": "latest"
   },
   "cdn": "dist/index.umd.js",
   "main": "dist/index.js",
