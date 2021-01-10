@@ -4,7 +4,6 @@
   "description": "Typescript open source software project boilerplate, configured with eslint and semantic releasing.",
   "author": "nshcore@protonmail.com",
   "license": "MIT",
-  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/nshcore/ts-oss-boiler.git"
